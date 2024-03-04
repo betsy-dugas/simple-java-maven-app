@@ -20,12 +20,7 @@ pipeline {
             steps {
                 sh '#!/usr/bin/env bash'
             }
- 
-        }
-        stage('Complete') {
-            steps {
-                echo 'Job Complete!'
-            }   
+
         }
     }
 }
